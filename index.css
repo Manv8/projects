@@ -1,0 +1,50 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.countdown-item {
+    text-align: center;
+}
+
+.countdown-item span {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.countdown-item div {
+    font-size: 1rem;
+    color: #666;
+}
+
+.date-picker {
+    margin-top: 20px;
+}
+
+.date-picker label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.date-picker input {
+    font-size: 1rem;
+}
